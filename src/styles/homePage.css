@@ -1,0 +1,39 @@
+
+.max-width {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  width: 60%;
+  padding-top: 4rem;
+}
+
+.buttons-wrapper {
+  padding-top: 4rem;
+}
+
+.buttons-wrapper button {
+  margin: 0 2rem;
+  padding: 0.4rem 2rem;
+  font-size: 1rem;
+  background-color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  border: 0.15em #039be5 solid;
+  transition: .2s ease all;
+}
+
+.buttons-wrapper button:hover{
+  background-color: #039be5;
+
+}
