@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/quoteApp/static/css/main.7c365ba0.chunk.css",
+    "main.js": "/quoteApp/static/js/main.d9cde705.chunk.js",
+    "main.js.map": "/quoteApp/static/js/main.d9cde705.chunk.js.map",
+    "runtime-main.js": "/quoteApp/static/js/runtime-main.3c39e5af.js",
+    "runtime-main.js.map": "/quoteApp/static/js/runtime-main.3c39e5af.js.map",
+    "static/js/2.be639833.chunk.js": "/quoteApp/static/js/2.be639833.chunk.js",
+    "static/js/2.be639833.chunk.js.map": "/quoteApp/static/js/2.be639833.chunk.js.map",
+    "index.html": "/quoteApp/index.html",
+    "static/css/main.7c365ba0.chunk.css.map": "/quoteApp/static/css/main.7c365ba0.chunk.css.map",
+    "static/js/2.be639833.chunk.js.LICENSE.txt": "/quoteApp/static/js/2.be639833.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c39e5af.js",
+    "static/js/2.be639833.chunk.js",
+    "static/css/main.7c365ba0.chunk.css",
+    "static/js/main.d9cde705.chunk.js"
+  ]
+}
