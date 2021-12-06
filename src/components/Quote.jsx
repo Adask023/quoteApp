@@ -3,9 +3,8 @@ import "../styles/quote.css";
 
 export const Quote = ({ content }) => {
   const { quote, author } = content;
-  console.log(content);
   return (
-    <blockquote className="sidekick">
+    <blockquote className="quote-wrapper">
       {quote}
       <cite>{author}</cite>
     </blockquote>

@@ -30,34 +30,23 @@ export const HomePage = () => {
     if (quote) {
       setQuoteHistory([...quoteHistory, quote]);
     }
+
     let quoteToDisplay = quoteData[Math.floor(Math.random() * quoteData.length)];
     while(quote?.quote === quoteToDisplay.quote) {
       quoteToDisplay = quoteData[Math.floor(Math.random() * quoteData.length)];
-      console.log('doubled')
     }
-    
+
     setQuote(quoteToDisplay);
-    // console.log(quoteHistory);
   };
 
   const getLastHistoryQuote = () => {
     if (quoteHistory.length > 0) {
       const quoteArr = quoteHistory;
-      console.log(quoteHistory);
       setQuote(quoteArr.pop());
-      console.log(quoteHistory);
       setQuoteHistory(quoteArr);
     } else {
       console.log("No data in quote history");
     }
-    console.log(quoteHistory);
-  };
-
-  const check = () => {
-    console.log(quote);
-    console.log(quotes);
-    console.log("history: ");
-    console.log(quoteHistory);
   };
 
   if (loading) {
@@ -76,7 +65,6 @@ export const HomePage = () => {
           >
             previous quote
           </button>
-          {/* <button onClick={check}>Check</button> */}
         </div>
         <div className="content">
           {quote && (
