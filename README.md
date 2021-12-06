@@ -1,6 +1,8 @@
 # Quote App
 
+Live version: https://adask023.github.io/quoteApp/
+
 ## Features
-- conntect with random quotes API <br>
+- connect with random quotes API <br>
 - generate random quote <br>
-- keep information about quotes history, and allows the user to return to that quotes <br>
+- keep information about quotes history, and allow the user to return to that quotes <br>
