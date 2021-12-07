@@ -63,7 +63,7 @@ export const HomePage = () => {
             disabled={quoteHistory.length > 0 ? false : true}
             style={quoteHistory.length > 0 ? null: {cursor: "not-allowed"}}
           >
-            previous quote
+            previous
           </button>
         </div>
         <div className="content">
